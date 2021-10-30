@@ -68,15 +68,16 @@
              Innovation starts with you. Be the leader.
           </p>
 
-          <form class="w-full rounded-lg px-0 pt-6 pb-8 mb-4">
+          <form class="w-full rounded-lg px-0 pt-6 pb-8 mb-4" action="https://formspree.io/f/xknklndb" method="POST">
             <div class="mb-4">
               <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
                 Sign up today to book a free demo.
               </label>
               <input
                 class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring"
-                id="emailaddress"
-                type="text"
+                id="_replyto"
+                type="email"
+                name="_replyto"
                 placeholder="you@example.com"
               />
             </div>
@@ -84,7 +85,7 @@
             <div class="flex items-center justify-between pt-4">
               <button
                 class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring"
-                type="button"
+                type="submit"
               >
                 Sign up.
               </button>
